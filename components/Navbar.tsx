@@ -55,10 +55,10 @@ const components: { title: string; href: string; description: string }[] = [
 
 export function Navbar() {
   return (
-    <div className="bg-gray-100 border-b flex items-center justify-between px-4 py-2">
+    <div className="bg-gray-100 border-b flex items-center justify-around px-4 gap-4 py-2 rounded-2xl">
       <div className="  ">
         <Link href={"/"}>
-          <Image src={"/vercel.svg"} alt="logo" width={50} height={50} />
+          <Image src={"/logo.png"} alt="logo" width={30} height={30} />
         </Link>
       </div>
 
