@@ -1,5 +1,6 @@
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
+import { IpoCard } from "@/components/IpoCard";
 import { Navbar } from "@/components/Navbar";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div className="p-2 m-2">
       <Navbar />
       <Hero />
+      <IpoCard />
       <Footer />
     </div>
   );

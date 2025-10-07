@@ -1,30 +1,30 @@
 export const SLIDING_HERO_DATA = [
-    {
-        index: 1,
-        title: "Discover IPOs",
-        description:
-            "Stay ahead of the market with real-time updates on upcoming IPOs and their performance.",
-        imageUrl: "/hero1.png",
-    },
-    {
-        index: 2,
-        title: "Track Your Investments",
-        description:
-            "Monitor your IPO investments and get insights to make informed decisions.",
-        imageUrl: "/hero2.png",
-    },
-    {
-        index: 3,
-        title: "Expert Analysis",
-        description:
-            "Access expert analysis and reports on the latest IPO trends and opportunities.",
-        imageUrl: "/hero3.png",
-    },
+  {
+    index: 1,
+    title: "Discover IPOs",
+    description:
+      "Stay ahead of the market with real-time updates on upcoming IPOs and their performance.",
+    imageUrl: "/hero1.png",
+  },
+  {
+    index: 2,
+    title: "Track Your Investments",
+    description:
+      "Monitor your IPO investments and get insights to make informed decisions.",
+    imageUrl: "/hero2.png",
+  },
+  {
+    index: 3,
+    title: "Expert Analysis",
+    description:
+      "Access expert analysis and reports on the latest IPO trends and opportunities.",
+    imageUrl: "/hero3.png",
+  },
 ];
 
 export const IPO_CARD_DATA = [
   {
-    imageUrl: "/images/ipo1.jpg",
+    imageUrl: "/ipo/herom.png",
     title: "TechNova Ltd",
     lotSize: 50,
     priceBand: "₹120 - ₹130",
@@ -35,7 +35,7 @@ export const IPO_CARD_DATA = [
     listingDate: "2025-10-20",
   },
   {
-    imageUrl: "/images/ipo2.jpg",
+    imageUrl: "/ipo/canara.png",
     title: "GreenGrid Energy",
     lotSize: 40,
     priceBand: "₹90 - ₹100",
@@ -46,7 +46,7 @@ export const IPO_CARD_DATA = [
     listingDate: "2025-10-18",
   },
   {
-    imageUrl: "/images/ipo3.jpg",
+    imageUrl: "/ipo/pw.png",
     title: "FinCore Capital",
     lotSize: 60,
     priceBand: "₹150 - ₹160",
@@ -57,7 +57,7 @@ export const IPO_CARD_DATA = [
     listingDate: "2025-10-15",
   },
   {
-    imageUrl: "/images/ipo4.jpg",
+    imageUrl: "/ipo/herom.png",
     title: "AgroLife Biotech",
     lotSize: 30,
     priceBand: "₹80 - ₹85",
@@ -68,7 +68,7 @@ export const IPO_CARD_DATA = [
     listingDate: "2025-10-13",
   },
   {
-    imageUrl: "/images/ipo5.jpg",
+    imageUrl: "/ipo/rubicon.png",
     title: "UrbanNest Realty",
     lotSize: 45,
     priceBand: "₹110 - ₹120",
@@ -79,7 +79,7 @@ export const IPO_CARD_DATA = [
     listingDate: "2025-10-11",
   },
   {
-    imageUrl: "/images/ipo6.jpg",
+    imageUrl: "/ipo/herom.png",
     title: "EduSpark Learning",
     lotSize: 35,
     priceBand: "₹95 - ₹105",
@@ -90,7 +90,7 @@ export const IPO_CARD_DATA = [
     listingDate: "2025-10-08",
   },
   {
-    imageUrl: "/images/ipo7.jpg",
+    imageUrl: "/ipo/herom.png",
     title: "MediCore Pharma",
     lotSize: 55,
     priceBand: "₹140 - ₹150",
@@ -101,7 +101,7 @@ export const IPO_CARD_DATA = [
     listingDate: "2025-10-06",
   },
   {
-    imageUrl: "/images/ipo8.jpg",
+    imageUrl: "/ipo/herom.png",
     title: "AutoEdge Motors",
     lotSize: 70,
     priceBand: "₹180 - ₹190",
@@ -112,7 +112,7 @@ export const IPO_CARD_DATA = [
     listingDate: "2025-10-04",
   },
   {
-    imageUrl: "/images/ipo9.jpg",
+    imageUrl: "/ipo/herom.png",
     title: "CloudNet Solutions",
     lotSize: 25,
     priceBand: "₹60 - ₹70",
@@ -123,7 +123,7 @@ export const IPO_CARD_DATA = [
     listingDate: "2025-10-02",
   },
   {
-    imageUrl: "/images/ipo10.jpg",
+    imageUrl: "/ipo/herom.png",
     title: "FreshFarm Organics",
     lotSize: 50,
     priceBand: "₹100 - ₹110",
