@@ -167,7 +167,7 @@ export const STATISTICS_DATA = [
     id: 1,
     imageUrl: "/ipo/herom.png",
     title: "Hero MotoCorp",
-    type:"Mainboard",
+    type: "Mainboard",
     lotSize: 50,
     priceBand: "₹120 - ₹130",
     openDate: "2025-10-10",
@@ -180,3 +180,4 @@ export const STATISTICS_DATA = [
   },
 
 ]
+
