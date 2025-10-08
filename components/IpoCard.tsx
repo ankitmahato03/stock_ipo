@@ -39,14 +39,41 @@ export const IpoCard = () => {
                   </div>
                 </CardAction>
               </CardHeader>
-              <CardContent>
-                <CardDescription>Price Band: {ipo.priceBand}</CardDescription>
-                <CardDescription>Open Date: {ipo.openDate}</CardDescription>
-                <CardDescription>Close Date: {ipo.closeDate}</CardDescription>
-                <CardDescription>Issue Size: {ipo.issueSize}</CardDescription>
-                <CardDescription>Issue Type: {ipo.issueType}</CardDescription>
+              <CardContent className="grid grid-cols-2 gap-1">
                 <CardDescription>
-                  Listing Date: {ipo.listingDate}
+                  Price Band:{" "}
+                  <span className=" font-bold text-black ">
+                    {ipo.priceBand}
+                  </span>
+                </CardDescription>
+                <CardDescription>
+                  Open Date:{" "}
+                  <span className=" font-bold text-black ">{ipo.openDate}</span>
+                </CardDescription>
+                <CardDescription>
+                  Close Date:{" "}
+                  <span className=" font-bold text-black ">
+                    {ipo.closeDate}
+                  </span>
+                </CardDescription>
+                <CardDescription>
+                  Issue Size:{" "}
+                  <span className=" font-bold text-black ">
+                    {ipo.issueSize}
+                  </span>
+                </CardDescription>
+                <CardDescription>
+                  Issue Type:{" "}
+                  <span className=" font-bold text-black ">
+                    {ipo.issueType}
+                  </span>
+                </CardDescription>
+                <CardDescription>
+                  Listing Date:{" "}
+                  <span className=" font-bold text-black ">
+                    {" "}
+                    {ipo.listingDate}
+                  </span>
                 </CardDescription>
               </CardContent>
             </Card>

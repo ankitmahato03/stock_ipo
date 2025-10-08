@@ -1,3 +1,5 @@
+import { Ipo, ipo_status } from "./types";
+
 export const SLIDING_HERO_DATA = [
   {
     index: 1,
@@ -22,8 +24,9 @@ export const SLIDING_HERO_DATA = [
   },
 ];
 
-export const IPO_CARD_DATA = [
+export const IPO_CARD_DATA: Ipo[] = [
   {
+    id: 1,
     imageUrl: "/ipo/herom.png",
     title: "TechNova Ltd",
     lotSize: 50,
@@ -33,8 +36,10 @@ export const IPO_CARD_DATA = [
     issueSize: "₹500 Cr",
     issueType: "Book Built Issue",
     listingDate: "2025-10-20",
+    status: ipo_status.open,
   },
   {
+    id: 2,
     imageUrl: "/ipo/canara.png",
     title: "GreenGrid Energy",
     lotSize: 40,
@@ -44,8 +49,10 @@ export const IPO_CARD_DATA = [
     issueSize: "₹300 Cr",
     issueType: "Fixed Price Issue",
     listingDate: "2025-10-18",
+    status: ipo_status.upcoming,
   },
   {
+    id: 3,
     imageUrl: "/ipo/pw.png",
     title: "FinCore Capital",
     lotSize: 60,
@@ -55,8 +62,10 @@ export const IPO_CARD_DATA = [
     issueSize: "₹750 Cr",
     issueType: "Book Built Issue",
     listingDate: "2025-10-15",
+    status: ipo_status.closed,
   },
   {
+    id: 4,
     imageUrl: "/ipo/herom.png",
     title: "AgroLife Biotech",
     lotSize: 30,
@@ -66,8 +75,10 @@ export const IPO_CARD_DATA = [
     issueSize: "₹200 Cr",
     issueType: "Fixed Price Issue",
     listingDate: "2025-10-13",
+    status: ipo_status.closed,
   },
   {
+    id: 5,
     imageUrl: "/ipo/rubicon.png",
     title: "UrbanNest Realty",
     lotSize: 45,
@@ -77,8 +88,11 @@ export const IPO_CARD_DATA = [
     issueSize: "₹600 Cr",
     issueType: "Book Built Issue",
     listingDate: "2025-10-11",
+    status: ipo_status.open,
+
   },
   {
+    id: 6,
     imageUrl: "/ipo/herom.png",
     title: "EduSpark Learning",
     lotSize: 35,
@@ -88,8 +102,10 @@ export const IPO_CARD_DATA = [
     issueSize: "₹250 Cr",
     issueType: "Fixed Price Issue",
     listingDate: "2025-10-08",
+    status: ipo_status.closed,
   },
   {
+    id: 7,
     imageUrl: "/ipo/herom.png",
     title: "MediCore Pharma",
     lotSize: 55,
@@ -99,8 +115,11 @@ export const IPO_CARD_DATA = [
     issueSize: "₹800 Cr",
     issueType: "Book Built Issue",
     listingDate: "2025-10-06",
+    status: ipo_status.open,
+
   },
   {
+    id: 8,
     imageUrl: "/ipo/herom.png",
     title: "AutoEdge Motors",
     lotSize: 70,
@@ -110,8 +129,10 @@ export const IPO_CARD_DATA = [
     issueSize: "₹950 Cr",
     issueType: "Book Built Issue",
     listingDate: "2025-10-04",
+    status: ipo_status.closed,
   },
   {
+    id: 9,
     imageUrl: "/ipo/herom.png",
     title: "CloudNet Solutions",
     lotSize: 25,
@@ -121,8 +142,11 @@ export const IPO_CARD_DATA = [
     issueSize: "₹150 Cr",
     issueType: "Fixed Price Issue",
     listingDate: "2025-10-02",
+    status: ipo_status.open,
+
   },
   {
+    id: 10,
     imageUrl: "/ipo/herom.png",
     title: "FreshFarm Organics",
     lotSize: 50,
@@ -132,5 +156,7 @@ export const IPO_CARD_DATA = [
     issueSize: "₹400 Cr",
     issueType: "Book Built Issue",
     listingDate: "2025-09-30",
+    status: ipo_status.open,
+
   },
 ];
