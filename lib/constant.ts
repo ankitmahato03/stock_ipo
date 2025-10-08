@@ -102,7 +102,7 @@ export const IPO_CARD_DATA: Ipo[] = [
     issueSize: "₹250 Cr",
     issueType: "Fixed Price Issue",
     listingDate: "2025-10-08",
-    status: ipo_status.closed,
+    status: ipo_status.upcoming,
   },
   {
     id: 7,
@@ -160,3 +160,23 @@ export const IPO_CARD_DATA: Ipo[] = [
 
   },
 ];
+
+
+export const STATISTICS_DATA = [
+  {
+    id: 1,
+    imageUrl: "/ipo/herom.png",
+    title: "Hero MotoCorp",
+    type:"Mainboard",
+    lotSize: 50,
+    priceBand: "₹120 - ₹130",
+    openDate: "2025-10-10",
+    closeDate: "2025-10-12",
+    issueSize: "₹500 Cr",
+    issueType: "Book Built Issue",
+    listingDate: "2025-10-20",
+
+
+  },
+
+]

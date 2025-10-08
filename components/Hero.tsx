@@ -22,7 +22,7 @@ export const Hero = () => {
                   src={items.imageUrl}
                   alt={items.title}
                   fill
-                  className="object-fill"
+                  className="object-fill  rounded-md"
                 />
 
                 {/* Bottom Text Overlay */}

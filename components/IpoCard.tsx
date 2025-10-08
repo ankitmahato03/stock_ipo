@@ -10,6 +10,7 @@ import {
   CardTitle,
 } from "./ui/card";
 import Image from "next/image";
+import clsx from "clsx";
 
 export const IpoCard = () => {
   return (
@@ -18,7 +19,7 @@ export const IpoCard = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2  justify-between place-items-center p-4">
           {IPO_CARD_DATA.map((ipo, index) => (
             <Card key={index} className="w-full max-w-sm mb-4 ">
-              <CardHeader className="items-center justify-center  space-y-2">
+              <CardHeader className=" w-full items-center justify-center  space-y-2">
                 <Image
                   src={ipo.imageUrl}
                   alt={ipo.title}
@@ -26,10 +27,19 @@ export const IpoCard = () => {
                   height={50}
                   className="object-cover"
                 />
-
-                <CardTitle>{ipo.title}</CardTitle>
-
-                <CardAction>
+                <div className="">
+                  <CardTitle className=" ">{ipo.title}</CardTitle>
+                  <CardTitle
+                    className={clsx("text-lg font-bold", {
+                      "text-green-600": ipo.status === "open",
+                      "text-red-600": ipo.status === "closed",
+                      "text-yellow-600": ipo.status === "upcoming",
+                    })}
+                  >
+                    {ipo.status}
+                  </CardTitle>
+                </div>
+                <CardAction className="">
                   <div>
                     <span className="font-bold text-2xl text-green-600">
                       {" "}
