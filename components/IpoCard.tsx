@@ -31,9 +31,9 @@ export const IpoCard = () => {
                   <CardTitle className=" ">{ipo.title}</CardTitle>
                   <CardTitle
                     className={clsx("text-lg font-bold", {
-                      "text-green-600": ipo.status === "open",
-                      "text-red-600": ipo.status === "closed",
-                      "text-yellow-600": ipo.status === "upcoming",
+                      "text-green-600": ipo.status === "OPEN",
+                      "text-red-600": ipo.status === "CLOSED",
+                      "text-yellow-600": ipo.status === "UPCOMMING",
                     })}
                   >
                     {ipo.status}

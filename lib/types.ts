@@ -1,7 +1,7 @@
 export enum ipo_status {
-    open = "open",
-    closed = "closed",
-    upcoming = "upcoming",
+    open = "OPEN",
+    closed = "CLOSED",
+    upcoming = "UPCOMMING",
 }
 
 export interface Ipo {
