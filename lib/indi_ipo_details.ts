@@ -29,4 +29,56 @@ export const indi_ipo_details = [
 ]
 
 
+export const indi_ipo_reservation_details = [
+    {
+        ipo_name: "Hero MotoCorp Ltd",
+        total_shares_offered: "10,18,15,860",
+        reservation_breakdown: [
+            {
+                category: "Anchor Investor",
+                shares: "3,04,81,539",
+                percentage: "29.93%",
+                max_allottees: null,
+            },
+            {
+                category: "QIB",
+                shares: "2,03,21,026",
+                percentage: "19.94%",
+                max_allottees: null,
+            },
+            {
+                category: "NII (HNI)",
+                shares: "1,52,40,770",
+                percentage: "14.97%",
+                max_allottees: null,
+            },
+            {
+                category: "bNII < ₹10L",
+                shares: "1,01,60,513",
+                percentage: "10%",
+                max_allottees: 55827,
+            },
+            {
+                category: "sNII < ₹10L",
+                shares: "50,80,257",
+                percentage: "5%",
+                max_allottees: 27914,
+            },
+            {
+                category: "Retail",
+                shares: "3,55,61,796",
+                percentage: "34.93%",
+                max_allottees: 2735523,
+            },
+            {
+                category: "Employee",
+                shares: "2,10,728",
+                percentage: "0.21%",
+                max_allottees: null,
+            },
+        ],
+    },
+];
+
+
 
