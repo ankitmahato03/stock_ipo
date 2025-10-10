@@ -101,5 +101,23 @@ export const IPO_DOCUMENTS = [
     },
 ]
 
+export const IPO_CONTATCT_REGISTRAR_DETAILS = [
+    {
+        ipo_name: "Hero MotoCorp Ltd",
+        contact_details: {
+            phone: "+91-22-2826 0320 / 2826 0321",
+            email: "example@ipoidea.com",
+            address: "Link Intime India Private Limited, C 101, 247 Park, L B S Marg, Vikhroli West, Mumbai - 400083",
+            website: "https://heromoto.co.in/",
+        },
+        registrar_details: {
+            phone: "+91-22-4918 6200 / 4918 6270",
+            email: "example@ipoidea.com",
+            address: "Link Intime India Private Limited, C 101, 247 Park, L B S Marg, Vikhroli West, Mumbai - 400083",
+            website: "https://linkintime.co.in/",
+        },
+    },
+]
+
 
 
