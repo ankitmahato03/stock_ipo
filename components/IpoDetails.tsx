@@ -7,6 +7,7 @@ import Image from "next/image";
 import { IpoIssueDetailsAndLotSize } from "./ipo-details/ipo-issue-details-and-lot-size";
 import { IpoReservationDetails } from "./ipo-details/ipo-reservation-details";
 import { IpoDocument } from "./ipo-details/ipo-document";
+import { IpoDescription } from "./ipo-details/ipo-description";
 
 export const IpoDetails = () => {
   const ipo = indi_ipo_details[0];
@@ -34,6 +35,7 @@ export const IpoDetails = () => {
           <IpoIssueDetailsAndLotSize ipo={ipo} />
           <IpoReservationDetails ipo={ipo_reservation_details} />
           <IpoDocument ipo={IPO_DOCUMENTS[0]} />
+          <IpoDescription ipo={ipo} />
         </div>
       </div>
     </section>
