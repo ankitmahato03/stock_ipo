@@ -81,4 +81,25 @@ export const indi_ipo_reservation_details = [
 ];
 
 
+export const IPO_DOCUMENTS = [
+    {
+        ipo_name: "Hero MotoCorp Ltd",
+        documents: [
+            {
+                name: "RHP",
+                url: "/documents/herom_rhp.pdf",
+            },
+            {
+                name: "DRHP",
+                url: "/documents/herom_abridged_prospectus.pdf",
+            },
+            {
+                name: "ANCHOR",
+                url: "/documents/herom_application_form.pdf",
+            },
+        ],
+    },
+]
+
+
 
