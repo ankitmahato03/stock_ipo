@@ -61,7 +61,7 @@ export const indi_ipo_reservation_details = [
             {
                 category: "sNII < ₹10L",
                 shares: "50,80,257",
-                percentage: "5%",
+                percentage: "50%",
                 max_allottees: 27914,
             },
             {
