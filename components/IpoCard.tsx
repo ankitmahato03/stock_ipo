@@ -1,18 +1,19 @@
 import { IPO_CARD_DATA } from "@/lib/constant";
-import { Button } from "./ui/button";
+import clsx from "clsx";
+import Image from "next/image";
 import {
   Card,
   CardAction,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "./ui/card";
-import Image from "next/image";
-import clsx from "clsx";
 
 export const IpoCard = () => {
+  const upperPrice = parseInt(
+    IPO_CARD_DATA[0].priceBand.split(" - ")[1].replace("₹", "")
+  );
   return (
     <section>
       <div className="bg-gray-300/20 p-4 rounded-lg">
@@ -43,7 +44,7 @@ export const IpoCard = () => {
                   <div>
                     <span className="font-bold text-2xl text-green-600">
                       {" "}
-                      ₹{15000}
+                      ₹{upperPrice * ipo.lotSize}{" "}
                     </span>
                     <span className="items-center">/{ipo.lotSize}</span>
                   </div>
