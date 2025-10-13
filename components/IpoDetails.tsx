@@ -1,5 +1,6 @@
 import {
   indi_ipo_details,
+  INDI_IPO_FINANCIAL_DETAILS,
   indi_ipo_reservation_details,
   IPO_CONTATCT_REGISTRAR_DETAILS,
   IPO_DOCUMENTS,
@@ -10,6 +11,7 @@ import { IpoReservationDetails } from "./ipo-details/ipo-reservation-details";
 import { IpoDocument } from "./ipo-details/ipo-document";
 import { IpoDescription } from "./ipo-details/ipo-description";
 import { ContactRegistrarDetails } from "./ipo-details/contact-registrar-details";
+import { IpoFinancialInformation } from "./ipo-details/ipo-financial-information";
 
 export const IpoDetails = () => {
   const ipo = indi_ipo_details[0];
@@ -38,6 +40,7 @@ export const IpoDetails = () => {
           <IpoReservationDetails ipo={ipo_reservation_details} />
           <IpoDocument ipo={IPO_DOCUMENTS[0]} />
           <IpoDescription ipo={ipo} />
+          <IpoFinancialInformation ipo={INDI_IPO_FINANCIAL_DETAILS[0]} />
           <ContactRegistrarDetails ipo={IPO_CONTATCT_REGISTRAR_DETAILS[0]} />
         </div>
       </div>

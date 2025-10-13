@@ -119,5 +119,52 @@ export const IPO_CONTATCT_REGISTRAR_DETAILS = [
     },
 ]
 
+export const INDI_IPO_FINANCIAL_DETAILS = [
+    {
+        ipo_name: "Hero MotoCorp Ltd",
+        reservation_breakdown: [
+            {
+                period: "30 Jun 2025",
+                assets: "₹1,647.60 Cr",
+                total_income: "₹356.95 Cr",
+                profit_after_tax: "₹43.30 Cr",
+                ebitda: "₹79.74 Cr",
+                net_worth: "₹593.67 Cr",
+                reserves_and_surplus: "₹397.50 Cr",
+                total_borrowing: "₹495.78 Cr",
+            },
+            {
+                period: "31 Mar 2025",
+                assets: "₹1,451.43 Cr",
+                total_income: "₹1,296.22 Cr",
+                profit_after_tax: "₹134.36 Cr",
+                ebitda: "₹267.89 Cr",
+                net_worth: "₹540.98 Cr",
+                reserves_and_surplus: "₹525.57 Cr",
+                total_borrowing: "₹393.17 Cr",
+            },
+            {
+                period: "31 Mar 2024",
+                assets: "₹1,109.49 Cr",
+                total_income: "₹872.39 Cr",
+                profit_after_tax: "₹91.01 Cr",
+                ebitda: "₹173.09 Cr",
+                net_worth: "₹385.00 Cr",
+                reserves_and_surplus: "₹369.79 Cr",
+                total_borrowing: "₹396.41 Cr",
+            },
+            {
+                period: "31 Mar 2023",
+                assets: "₹749.70 Cr",
+                total_income: "₹419.00 Cr",
+                profit_after_tax: "-₹16.89 Cr",
+                ebitda: "₹43.97 Cr",
+                net_worth: "₹286.38 Cr",
+                reserves_and_surplus: "₹281.31 Cr",
+                total_borrowing: "₹317.91 Cr",
+            },
+        ],
+    },
+];
 
 
