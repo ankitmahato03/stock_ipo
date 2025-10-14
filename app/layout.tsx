@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AkIPO",
+  title: "Listing Gains",
   description: "IPO Latest Mainboard ipo details and updates",
 };
 
