@@ -17,3 +17,17 @@ export interface Ipo {
     imageUrl: string;
     status: ipo_status;
 }
+
+type IpoFinancial = {
+    ipo_name: string;
+    reservation_breakdown: {
+        period: string;
+        assets: string;
+        total_income: string;
+        profit_after_tax: string;
+        ebitda: string;
+        net_worth: string;
+        reserves_and_surplus: string;
+        total_borrowing: string;
+    }[];
+};
