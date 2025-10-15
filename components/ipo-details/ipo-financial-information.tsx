@@ -15,20 +15,6 @@ import {
 } from "@/components/ui/card";
 import { INDI_IPO_FINANCIAL_DETAILS } from "@/lib/indi_ipo_details";
 
-type IpoFinancial = {
-  ipo_name: string;
-  reservation_breakdown: {
-    period: string;
-    assets: string;
-    total_income: string;
-    profit_after_tax: string;
-    ebitda: string;
-    net_worth: string;
-    reserves_and_surplus: string;
-    total_borrowing: string;
-  }[];
-};
-
 export const IpoFinancialInformation = ({
   ipo,
 }: {
