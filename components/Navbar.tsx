@@ -1,9 +1,8 @@
 "use client";
 
-import * as React from "react";
-import Link from "next/link";
 import Image from "next/image";
-import { CircleCheckIcon, CircleHelpIcon, CircleIcon } from "lucide-react";
+import Link from "next/link";
+import * as React from "react";
 
 import {
   NavigationMenu,
@@ -14,6 +13,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import { Button } from "./ui/button";
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -150,6 +150,16 @@ export function Navbar() {
                 ))}
               </ul>
             </NavigationMenuContent>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NavigationMenuLink
+              asChild
+              className={navigationMenuTriggerStyle()}
+            >
+              <Button variant="outline" className="text-black ">
+                <Link href="/docs">Login</Link>
+              </Button>
+            </NavigationMenuLink>
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
