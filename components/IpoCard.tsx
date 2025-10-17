@@ -19,7 +19,10 @@ export const IpoCard = () => {
       <div className="bg-gray-300/20 p-4 rounded-lg">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2  justify-between place-items-center p-4">
           {IPO_CARD_DATA.map((ipo, index) => (
-            <Card key={index} className="w-full max-w-sm mb-4 ">
+            <Card
+              key={index}
+              className="w-full max-w-sm mb-4 hover:shadow-lg transition-shadow duration-300 cursor-pointer"
+            >
               <CardHeader className=" w-full items-center justify-center  space-y-2">
                 <Image
                   src={ipo.imageUrl}
