@@ -23,7 +23,7 @@ export const IpoCard = () => {
               key={index}
               className="w-full max-w-sm mb-4 hover:shadow-lg transition-shadow duration-300 cursor-pointer"
             >
-              <CardHeader className=" w-full items-center justify-center  space-y-2">
+              <CardHeader className=" w-full items-center justify-center  space-y-2 ">
                 <Image
                   src={ipo.imageUrl}
                   alt={ipo.title}
@@ -43,7 +43,7 @@ export const IpoCard = () => {
                     {ipo.status}
                   </CardTitle>
                 </div>
-                <CardAction className="">
+                <CardAction className="bg-black">
                   <div>
                     <span className="font-bold text-2xl text-green-600">
                       {" "}
@@ -54,36 +54,36 @@ export const IpoCard = () => {
                 </CardAction>
               </CardHeader>
               <CardContent className="grid grid-cols-2 gap-1">
-                <CardDescription>
-                  Price Band:{" "}
+                <CardDescription className="flex flex-col  justify-center ">
+                  <span>Price Band:</span>
                   <span className=" font-bold text-black ">
                     {ipo.priceBand}
                   </span>
                 </CardDescription>
-                <CardDescription>
-                  Open Date:{" "}
+                <CardDescription className="flex flex-col  justify-center ">
+                  <span> Open Date: </span>
                   <span className=" font-bold text-black ">{ipo.openDate}</span>
                 </CardDescription>
-                <CardDescription>
-                  Close Date:{" "}
+                <CardDescription className="flex flex-col  justify-center ">
+                  <span> Close Date: </span>
                   <span className=" font-bold text-black ">
                     {ipo.closeDate}
                   </span>
                 </CardDescription>
-                <CardDescription>
-                  Issue Size:{" "}
+                <CardDescription className="flex flex-col  justify-center ">
+                  <span> Issue Size: </span>
                   <span className=" font-bold text-black ">
                     {ipo.issueSize}
                   </span>
                 </CardDescription>
-                <CardDescription>
-                  Issue Type:{" "}
+                <CardDescription className="flex flex-col  justify-center ">
+                  <span> Issue Type: </span>
                   <span className=" font-bold text-black ">
                     {ipo.issueType}
                   </span>
                 </CardDescription>
-                <CardDescription>
-                  Listing Date:{" "}
+                <CardDescription className="flex flex-col  justify-center ">
+                  <span> Listing Date: </span>
                   <span className=" font-bold text-black ">
                     {" "}
                     {ipo.listingDate}
