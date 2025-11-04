@@ -149,7 +149,7 @@ export function Navbar() {
               asChild
               className={navigationMenuTriggerStyle()}
             >
-              <Button variant="outline" className="text-black ">
+              <Button variant="outline" className="text-white bg-blue-700 ">
                 <Link href="/docs">Login</Link>
               </Button>
             </NavigationMenuLink>
