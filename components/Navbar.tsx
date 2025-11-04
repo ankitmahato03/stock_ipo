@@ -17,20 +17,20 @@ import { Button } from "./ui/button";
 
 const components: { title: string; href: string; description: string }[] = [
   {
-    title: "Alert Dialog",
-    href: "/docs/primitives/alert-dialog",
+    title: "About Us",
+    href: "/about-us",
     description:
       "A modal dialog that interrupts the user with important content and expects a response.",
   },
   {
-    title: "Hover Card",
-    href: "/docs/primitives/hover-card",
+    title: "IPO Details",
+    href: "/ipo-details",
     description:
       "For sighted users to preview content available behind a link.",
   },
   {
-    title: "Progress",
-    href: "/docs/primitives/progress",
+    title: "T&C",
+    href: "/terms-conditions",
     description:
       "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
   },
