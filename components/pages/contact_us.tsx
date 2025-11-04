@@ -2,11 +2,11 @@ import Head from "next/head";
 
 export default function Contact() {
   return (
-    <div className="bg-black">
+    <div>
       <Head>
         <title>Contact Us</title>
       </Head>
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4">
+      <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4 rounded-md p-6 mt-3">
         <div className="max-w-xl w-full bg-white p-8 rounded shadow">
           <h1 className="text-2xl font-bold mb-6 text-gray-800">Contact Us</h1>
           <form className="space-y-4">
